@@ -1,0 +1,54 @@
+body{
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+.product{
+  border:4px solid black;
+}
+
+.product-title{
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: rgb(238, 238, 238);
+}
+
+.price{
+font-size: 25px;
+}
+
+.shipping{
+  text-transform: uppercase;
+  color: rgb(80, 79, 79);
+  font-size: 12px;
+}
+
+.more-info:link, .more-info:visited{
+  color: black;
+}
+.more-info:hover, .more-info:active{
+  text-decoration: none;
+}
+
+.product-details{
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.product-list{
+list-style: square;
+}
+
+.add-to-cart{
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+.add-to-cart:hover{
+  background-color: rgb(238, 238, 238);
+  color: black;
+  border: 2px solid black;
+}
