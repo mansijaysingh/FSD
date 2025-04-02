@@ -6,12 +6,15 @@
 body{
   font-family: sans-serif;
   line-height: 1.4;
+  position: relative;
 }
 
 .product{
   border:4px solid black;
   width: 825px;
   margin: 50px auto;
+  position: relative;
+  
 }
 
 .product-title{
@@ -70,4 +73,59 @@ margin-left: 20px;
   background-color: rgb(238, 238, 238);
   color: black;
   border: 2px solid black;
+}
+
+/* h1::before{
+  content: "SALE";
+  color: white;
+  background-color: rgb(206, 6, 6);
+  position:absolute;
+  top: 0px;
+  left: 0px;
+
+} */
+
+/* .color-options{
+display: inline-block;
+margin: 20px;
+text-align: center;
+} */
+
+.sale{
+  background-color: rgb(202, 6, 6);
+  color: white;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 7px 10px;
+  display: inline-block;
+  position: absolute;
+  top: -17px;
+  left: -38px;
+}
+
+.color{
+  background-color: #000;
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.color-red{
+  background-color: red;
+}
+.color-blue{
+  background-color: blue;
+}
+.color-green{
+  background-color: green;
+}
+.color-yellow{
+  background-color: yellow;
+}
+.color-brown{
+  background-color:brown;
 }
