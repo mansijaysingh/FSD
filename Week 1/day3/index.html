@@ -13,23 +13,23 @@
   <nav>
     <a href="blog.html">Blog</a>
     <a href="#">Challenges</a>
-    <a href="#">flexbox</a>
-    <a href="#">CSS</a>
-    <a href="#">grid</a>
+    <a href="flexbox.html">flexbox</a>
+    <a href="css-grid.html">CSS Grid</a>
+    
     </nav>
     <!-- <div class="clear"></div> -->
   </header>
-  
+  <div class="row">
   <article>
     <header class="the-poster">
       <h2>The Basic Language of the Web: HTML</h2>
 
-      <img src="laura-jones.jpg" alt="author image" width="50" height="50"
+     <div class="author-box"> <img src="laura-jones.jpg" alt="author image" width="50" height="50"
       class="author-img"
       />
     
       <p id="author" class="author-c">Posted by <strong> Laura Jones </strong> on Monday, June 21st 2027
-      </p>
+      </p></div>
     
       <img src="post-img.jpg" alt="Html code in this image" width="500" height="200"
       class="post-img"/>
@@ -73,32 +73,39 @@
   <aside>
   <h4>Related post</h4>
   <ul class="list">
-    <li>
+    <li class="related-post">
       <img src="related-1.jpg"
       alt="related-1" width="75" height="75"> 
     </img>
-    <a href="#">How to Learn Web Develoment</a>
-    <p class="related-author">By Jonas Schmedtmann</p>
+    <div>
+      <a href="#" class="related-link">How to Learn Web Develoment</a>
+      <p class="related-author">By Jonas Schmedtmann</p>
+    </div>
     </li>
     
-    <li>
+    <li class="related-post">
       <img src="related-2.jpg"
       alt="related-2" width="75" height="75"> 
     </img>
-    <a href="#">The Unknown Powers of CSS</a>
+    <div>
+    <a href="#" class="related-link">The Unknown Powers of CSS</a>
     <P class="related-author">By Jim Dillon</P>
+  </div>
     </li>
   
-    <li >
+    <li class="related-post">
       <img src="related-3.jpg"
       alt="related-3" width="75" height="75">
     </img>
-    <a href="#">Why JavaScript is Awesome</a>
+    <div>
+    <a href="#" class="related-link">Why JavaScript is Awesome</a>
     <p class="related-author"> By Matilda</p>
+  </div>
     </li>
    
   </ul>
   </aside>
+</div>
   <footer>
    <p id="Copyright"> Copyright &copy; 2027 by The Code Magazine.</p>
   </footer>
