@@ -15,6 +15,11 @@ body{
   width: 825px;
   margin: 50px auto;
   position: relative;
+
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+  column-gap: 40px;
+ 
   
 }
 
@@ -25,6 +30,7 @@ body{
   background-color: rgb(238, 238, 238);
   padding-top: 10px;
   padding-bottom: 10px;
+  grid-column: 1/-1;
 }
 
 .price{
@@ -73,6 +79,8 @@ margin-left: 20px;
   padding: 15px;
   width: 100%;
   border-top:4px solid black;
+  grid-column: 1/-1;
+
 }
 
 .add-to-cart:hover{
@@ -113,7 +121,8 @@ text-align: center;
 
 .color-options{
   display: flex;
-}
+ 
+ }
 
 .color{
   background-color: #000;
@@ -149,14 +158,14 @@ text-align: center;
 .product-info{
   /* width: 243px;
   float: left; */
-  flex: 1;
+  /* flex: 1; */
  /* margin-right: 40px; */
  margin-top: 20px;;
 }
 
 .details{
 width: 243px;
-flex: 1;
+/* flex: 1; */
 
 }
 
@@ -168,8 +177,14 @@ flex: 1;
   margin-bottom: 20px;
   
 }
-.container{
-  display: flex;
-gap: 40px;
-}
+/* .container{
+  /* display: flex; 
+  display: grid;
+  grid-template-columns: 250 1fr 1fr;
+  gap: 40px;
+  grid-column: 1/-1;
+  /* justify-items: start; 
+  margin-bottom: 20px;
 
+}
+ */
