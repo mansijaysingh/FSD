@@ -24,7 +24,7 @@ body{
   font-weight: bold;
 }
 
-nav, menu, section, main , aside{
+nav,  section, main , aside{
 padding-top: 24px;
 }
 nav{
@@ -35,8 +35,12 @@ nav{
 
 menu{
   background-color:#7048e8;
-  color:#fff;
+  /* color:#fff; */
   grid-column: 2/-1;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 12px;
 }
 
 button{
@@ -50,8 +54,27 @@ button{
   padding: 8px 12px;
 }
 
+button:last-child{
+  background-color: #d6336c;
+  margin-left: auto;
+}
 section{
   background-color: #e9ecef;
+  padding: 40px;
+  overflow: scroll;
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+}
+
+.email{
+  background-color: #adb5bd;
+  height:96px ;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+
 }
 
 aside{
@@ -68,7 +91,19 @@ aside{
     <button>Mark Unread</button>
     <button>Trash</button> 
    </menu>
-  <section>Section</section>
+  <section>
+    <div class="email">Email 1</div>
+    <div class="email">Email 2</div>
+    <div class="email">Email 3</div>
+    <div class="email">Email 4</div>
+    <div class="email">Email 5</div>
+    <div class="email">Email 6</div>
+    <div class="email">Email 7</div>
+    <div class="email">Email 8</div>
+    <div class="email">Email 9</div>
+    <div class="email">Email 10</div>
+    
+  </section>
   <main>Email view</main>
   <aside>Additional</aside>
 </body>
