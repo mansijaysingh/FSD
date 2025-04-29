@@ -497,7 +497,7 @@ border-radius: 50%;
 
  
  
-.section-pricing{
+.section-cta{
   padding: 9.6rem 0;
  
    }
@@ -576,4 +576,17 @@ color: #45260a;
     box-shadow: 0 0  0 0.8rem rgba(253, 242, 233, 0.5);
   }
 
+
+  
+   /*************************/
+/*footer section */
+/************************/
+
+ 
+ 
+.footer{
+  padding: 9.6rem 0;
+ 
+   }
+   
    
