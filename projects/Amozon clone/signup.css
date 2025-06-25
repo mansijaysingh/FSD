@@ -130,10 +130,10 @@ footer{
   width: 100%;
   height: auto;
   max-height: 200px;
-  margin-top: 20px;
+  margin-top: 30px;
   padding: 20px 0;
-  position: fixed;
-  bottom: 0;
+  /* position: fixed;
+  bottom: 0; */
   background-color: linear-gradient(to bottom, #f4f4f4, #fff);
   border-top: 2px solid #ededed;
   font-size: 12px;
