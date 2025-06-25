@@ -273,3 +273,50 @@ footer{
   padding: 20px 60px;
   color: #fff;
 }
+
+
+
+/*--------- media query ---------*/
+
+@media only screen and (max-width:900px){
+  nav{
+    flex-wrap: wrap;
+  }
+
+  .nav-search{
+    order: 7;
+    margin: 15px 0 5px;
+    min-width: 300px;
+  }
+
+  .box-col{
+    max-width: 48%;
+  }
+}
+
+@media only screen and (max-width:670px){
+.nav-country{
+  display: none;
+}
+}
+
+@media only screen and (max-width:600px){
+  .nav-country{
+    display: none;
+  }
+  .nav-language{
+    display: none;
+  }
+  .nav-text{
+    display: none;
+  }
+
+  .nav-bottom{
+    font-size: 13px;
+    gap: 10px;
+    overflow-x: scroll;
+  }
+  .nav-bottom::-webkit-scrollbar{
+    display: none;
+  }
+}
