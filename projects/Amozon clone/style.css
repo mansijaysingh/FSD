@@ -319,4 +319,42 @@ footer{
   .nav-bottom::-webkit-scrollbar{
     display: none;
   }
+.nav-bottom p{
+  text-wrap: nowrap;
+}
+  .mobile-user-icon{
+    display: flex !important;
+    flex: 1;
+    justify-content: flex-end;
+
+  }
+
+  .mobile-user-icon img{
+    width: 25px;
+    
+  }
+
+  .nav-cart h4{
+    display: none;
+  }
+  .nav-cart img{
+    width: 25px;
+  }
+
+  .header-slider a{
+top: 25%;
+font-size: 15px;
+padding: 2vh 1vw;
+  }
+
+  .box-col{
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .footer{
+    justify-content: center;
+    flex-direction: column;
+    font-size: 14px;
+  }
 }
