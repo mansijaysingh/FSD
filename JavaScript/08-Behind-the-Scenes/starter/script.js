@@ -57,3 +57,23 @@ mansi.calcAge();
 
 const f=jonas.calcAge;
 // console.log(f)
+
+
+//objects refrences in practice (shallow vs deep copies)
+
+const jessica={
+  firstName:"jessica",
+  lastName:'Williams',
+  age:27,
+}
+function marryPerson(person,newLastName){
+
+
+}
+
+
+// const marriedJessica=jessica;
+// marriedJessica.lastName="davis";
+
+console.log('before',jessica);
+console.log("after",marriedJessica);
