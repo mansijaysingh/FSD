@@ -35,3 +35,25 @@
 //   return a+b;
 // }
 
+// console.log(this);
+
+const jonas={
+  year:1991,
+  calcAge:function(){
+    console.log(this);
+    console.log(2025-this.year)
+  }
+}
+
+jonas.calcAge();
+
+
+const mansi={
+  year:2002,
+};
+
+mansi.calcAge=jonas.calcAge;
+mansi.calcAge();
+
+const f=jonas.calcAge;
+// console.log(f)
