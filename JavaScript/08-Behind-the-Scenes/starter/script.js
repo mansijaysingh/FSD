@@ -9,6 +9,9 @@ function calcAge(birtheyear){
 
   if(birtheyear>=1981 && birtheyear<=1996){
     const str=`you are a millennial, born in ${birtheyear}`
+
+
+    
   }
  }
  printAge();
