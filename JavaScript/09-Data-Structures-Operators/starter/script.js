@@ -30,6 +30,10 @@ const restaurant = {
   starterMenu: ['Focaccia', 'Bruschetta', 'Garlic Bread', 'Caprese Salad'],
   mainMenu: ['Pizza', 'Pasta', 'Risotto'],
 
+  order:function(starterIndex, mainIndex){
+    return[this.starterMenu[starterIndex],this.mainMenu[mainIndex]]
+  }
+
   // openingHours: {
   //   thu: {
   //     open: 12,
@@ -54,3 +58,34 @@ const c=arr[2];
 //destructuring
 const [x,y,z]=arr;
 console.log(x,y,z);
+
+let [main,secondary]=restaurant.categories;
+console.log(main,secondary);
+
+
+//Switching variables
+// const temp=main;
+// main=secondary;
+// secondary=temp;
+// console.log(main, secondary)
+
+[main,secondary]=[secondary,main];
+console.log(main,secondary)
+
+// console.log(restaurant.order(2,0));
+// Receive 2 return value from a function
+const[starter, mainCourse]=restaurant.order(2,0);
+console.log(starter,mainCourse);
+
+
+//nested destructuring
+const nestedArr=[2,4,[5,6]];
+// const[i, ,j]=nestedArr;
+// // console.log(i,j)
+
+const  [i, , [j,k]]=nestedArr;
+console.log(i,j,k)
+
+//defaul values
+const [p=1,q=1,r=1]=[8,9];
+console.log(p,q,r);
